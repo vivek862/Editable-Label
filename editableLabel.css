@@ -1,0 +1,25 @@
+.edit-link:hover{
+    cursor: pointer;
+}
+.form-group.input-label-group{
+    margin-bottom:0;
+    padding-bottom:10px;
+    padding-top:10px;
+    border-bottom: 1px solid #b7bbbc;
+}
+.input-label-group input{
+    border:none;
+    line-height: 1.5;
+    font-size: 15px;
+}
+.input-label-group input:focus{
+    outline:none;
+}
+.profile-label{
+    font-size:14px;
+    margin-left:15px;
+}
+.edit-link{
+    color:#7c7f7f;
+    font-size:14px;
+}
