@@ -55,8 +55,8 @@ class EditableLabel extends React.Component {
 
                   </div></div>) :
                 (<input
-                  data-index={this.props.index} data-subindex={this.props.subIndex}
-                  className="col-sm-12" data-choiseindex={this.props.choiseIndex}
+                  data-index={this.props.index}
+                  className="col-sm-12"
                   defaultValue={this.props.value} name={this.props.name}
                   onBlur={this.onChangeValue} onKeyPress={this.onKeyPress}
                   autoFocus
@@ -75,8 +75,6 @@ EditableLabel.PropTypes = {
     name: PropTypes.string,
     children: PropTypes.node,
     className: PropTypes.string,
-    index: PropTypes.number,
-    subIndex: PropTypes.number,
-    choiseIndex: PropTypes.number
+    index: PropTypes.number
 };
 export default EditableLabel;
